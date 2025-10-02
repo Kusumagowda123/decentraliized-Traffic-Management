@@ -1,0 +1,19 @@
+pragma solidity ^0.4.21;
+
+contract tranRecordsRewards {
+
+ 
+  string public data;
+
+  
+ 
+  function set_data(string _name) public {
+    data=_name;
+
+  }
+  
+
+  function get_data() view public returns (string) {
+    return data;
+ }
+}
